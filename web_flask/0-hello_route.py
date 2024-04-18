@@ -6,9 +6,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/', strict_slashes=False)
-def hello_hbnb():
-    return "Hello HBNB!"
+@app.route('/airbnb-onepage/')
+def hello():
+    return "Hello, Airbnb One Page!"
 
 
 if __name__ == "__main__":
